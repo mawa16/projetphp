@@ -39,6 +39,7 @@ if ($result->num_rows == 0) {
             <th>ID</th>
             <th>Nom</th>
             <th>Prénom</th>
+            <th>Titre</th></th>
             <th>Profil</th>
             <th>Actions</th>
         </tr>
@@ -48,6 +49,7 @@ if ($result->num_rows == 0) {
                 <td><?= $row['id'] ?></td>
                 <td><?= $row['nom'] ?></td>
                 <td><?= $row['prenom'] ?></td>
+                <td><?= $row['titre'] ?></td>
                 <td><?= $row['profile'] ?></td>
                 <td>
                     <a href="view.php?id=<?= $row['id'] ?>">👁</a> | 
