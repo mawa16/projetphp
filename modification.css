@@ -1,4 +1,4 @@
-/* Palette 2 : Élégance rose et or */
+
 * {
     margin: 0;
     padding: 0;
@@ -7,14 +7,14 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #fff0f5; /* Rose très clair */
+    background-color: #fff0f5; 
     color: #333;
     line-height: 1.6;
     padding: 20px;
 }
 
 h2 {
-    color: #d4af37; /* Or */
+    color: #d4af37; 
     margin-bottom: 20px;
     font-size: 2em;
     text-align: center;
@@ -33,7 +33,7 @@ label {
     display: block;
     margin-bottom: 8px;
     font-weight: bold;
-    color: #c71585; /* Rose profond */
+    color: #c71585; 
 }
 
 input[type="text"],
@@ -49,7 +49,7 @@ select {
 
 input[type="text"]:focus,
 select:focus {
-    border-color: #ff69b4; /* Rose vif */
+    border-color: #ff69b4; 
     outline: none;
 }
 
@@ -66,7 +66,7 @@ img {
 input[type="submit"] {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #ff69b4; /* Rose vif */
+    background-color: #ff69b4; 
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -76,12 +76,12 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #ff1493; /* Rose plus foncé */
+    background-color: #ff1493; 
 }
 
-/* Style pour les messages d'erreur */
+
 .error {
-    color: #ff4a3d; /* Rouge pour les erreurs */
+    color: #ff4a3d;
     margin-bottom: 15px;
     text-align: center;
 }
