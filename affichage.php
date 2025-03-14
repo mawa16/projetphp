@@ -52,8 +52,8 @@ if ($result->num_rows == 0) {
                 <td><?= $row['titre'] ?></td>
                 <td><?= $row['profile'] ?></td>
                 <td>
-                    <a href="view.php?id=<?= $row['id'] ?>">👁</a>
-                    <a href="edit.php?id=<?= $row['id'] ?>">✏</a> 
+                    <a href=">👁</a>
+                    <a href="modification.php?id=<?= $row['id'] ?>">✏</a> 
                     <a href="delete.php?id=<?= $row['id'] ?>" onclick="return confirm('Voulez-vous supprimer cet utilisateur ?')">🗑</a>
                 </td>
             </tr>
