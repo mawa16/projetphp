@@ -1,4 +1,4 @@
-/* Palette 2 : Élégance rose et or */
+
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #fff0f5; /* Rose très clair */
+    background-color: #fff0f5; 
     color: #333;
     line-height: 1.6;
     padding: 20px;
@@ -23,7 +23,7 @@ body {
 }
 
 h2 {
-    color: #d4af37; /* Or */
+    color: #d4af37; 
     margin-bottom: 20px;
     font-size: 2em;
     text-align: center;
@@ -40,7 +40,7 @@ h2 {
 }
 
 .btn-primary {
-    background-color: #ff69b4; /* Rose vif */
+    background-color: #ff69b4;
     color: #fff;
 }
 
@@ -49,7 +49,7 @@ h2 {
 }
 
 .btn-success {
-    background-color: #d4af37; /* Or */
+    background-color: #d4af37; 
     color: #fff;
 }
 
@@ -73,20 +73,20 @@ th, td {
 }
 
 th {
-    background-color: #c71585; /* Rose profond */
+    background-color: #c71585; 
     color: white;
 }
 
 tr:nth-child(even) {
-    background-color: #fff5ee; /* Rose très clair */
+    background-color: #fff5ee; 
 }
 
 tr:hover {
-    background-color: #ffe4e1; /* Rose légèrement plus foncé */
+    background-color: #ffe4e1; 
 }
 
 a {
-    color: #c71585; /* Rose profond */
+    color: #c71585; 
     text-decoration: none;
     margin: 0 5px;
     transition: color 0.3s ease;
@@ -96,22 +96,20 @@ a:hover {
     color: #a50a6e;
 }
 
-/* Style pour les icônes d'action */
+
 td a {
     font-size: 1.2em;
 }
 
-/* Style pour le bouton de suppression */
+
 td a[onclick] {
     color: #ff4a3d;
 }
 
-/* Style pour le bouton de modification */
 td a[href*="modification"] {
     color: #d4af37; /* Or */
 }
 
-/* Style pour le bouton de visualisation */
 td a[href*="view"] {
-    color: #81b29a; /* Vert pastel pour contraster */
+    color: #81b29a; 
 }
