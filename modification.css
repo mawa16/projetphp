@@ -1,0 +1,87 @@
+/* Palette 2 : Élégance rose et or */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff0f5; /* Rose très clair */
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+h2 {
+    color: #d4af37; /* Or */
+    margin-bottom: 20px;
+    font-size: 2em;
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #c71585; /* Rose profond */
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+select:focus {
+    border-color: #ff69b4; /* Rose vif */
+    outline: none;
+}
+
+input[type="file"] {
+    margin-bottom: 15px;
+}
+
+img {
+    display: block;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff69b4; /* Rose vif */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff1493; /* Rose plus foncé */
+}
+
+/* Style pour les messages d'erreur */
+.error {
+    color: #ff4a3d; /* Rouge pour les erreurs */
+    margin-bottom: 15px;
+    text-align: center;
+}
