@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #fff0f5; 
+    background-color: #f9f9f9;
     color: #333;
     line-height: 1.6;
     padding: 20px;
@@ -17,13 +17,13 @@ body {
     max-width: 1200px;
     margin: auto;
     padding: 20px;
-    background-color: #ffffff;
+    background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 h2 {
-    color: #d4af37; 
+    color: #ff6f61;
     margin-bottom: 20px;
     font-size: 2em;
     text-align: center;
@@ -40,21 +40,21 @@ h2 {
 }
 
 .btn-primary {
-    background-color: #ff69b4;
+    background-color: #ff6f61;
     color: #fff;
 }
 
 .btn-primary:hover {
-    background-color: #ff1493;
+    background-color: #ff4a3d;
 }
 
 .btn-success {
-    background-color: #d4af37; 
+    background-color: #88c9a1;
     color: #fff;
 }
 
 .btn-success:hover {
-    background-color: #b89b2e;
+    background-color: #6bb68c;
 }
 
 table {
@@ -73,27 +73,27 @@ th, td {
 }
 
 th {
-    background-color: #c71585; 
+    background-color: #ff6f61;
     color: white;
 }
 
 tr:nth-child(even) {
-    background-color: #fff5ee; 
+    background-color: #f2f2f2;
 }
 
 tr:hover {
-    background-color: #ffe4e1; 
+    background-color: #ddd;
 }
 
 a {
-    color: #c71585; 
+    color: #ff6f61;
     text-decoration: none;
     margin: 0 5px;
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #a50a6e;
+    color: #ff4a3d;
 }
 
 
@@ -106,10 +106,12 @@ td a[onclick] {
     color: #ff4a3d;
 }
 
+
 td a[href*="modification"] {
-    color: #d4af37; /* Or */
+    color: #88c9a1;
 }
 
+
 td a[href*="view"] {
-    color: #81b29a; 
+    color: #6bb68c;
 }
