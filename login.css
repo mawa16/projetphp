@@ -1,0 +1,97 @@
+/* Réinitialisation de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style de fond de la page */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f6f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+}
+
+/* Conteneur principal de la page de connexion */
+.login-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Titre de la page */
+h2 {
+    color: #2c3e50;
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+/* Style des champs de formulaire */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+/* Effet au focus sur les champs de texte */
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+/* Style du bouton de connexion */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Effet au survol du bouton */
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Message d'erreur */
+.error {
+    color: #e74c3c;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+/* Ajouter une animation subtile à la page */
+.login-container {
+    animation: fadeIn 0.8s ease-out;
+}
+
+/* Animation de fondu */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

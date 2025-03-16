@@ -1,0 +1,115 @@
+/* Style général */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ecf0f1;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow-x: hidden;  /* Empêche le débordement horizontal */
+}
+
+/* Titre principal */
+h2 {
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Conteneur principal */
+form {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;  /* Prendre toute la largeur disponible */
+    max-width: 400px;  /* Limite la largeur à 400px pour qu'il ne dépasse pas */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+/* Formulaire */
+label {
+    font-weight: bold;
+    text-align: left;
+    color: #34495e;
+    width: 100%;
+}
+
+input, select {
+    padding: 12px;
+    width: 100%;  /* S'assurer que les champs prennent toute la largeur disponible */
+    border: 1px solid #bdc3c7;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+input:focus, select:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+/* Champ de photo de profil */
+input[type="file"] {
+    border: none;
+    padding: 0;
+}
+
+img {
+    margin-top: 10px;
+    max-width: 100px;
+    border-radius: 6px;
+}
+
+/* Bouton de soumission */
+input[type="submit"] {
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+}
+
+/* Bouton de soumission */
+input[type="submit"] {
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+}
+
+/* Bouton retour */
+button[type="button"] {
+    background-color: #95a5a6;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;  /* Le bouton occupe toute la largeur disponible */
+    margin-top: 20px;  /* Espacement entre le bouton retour et le bouton modifier */
+}
+
+button[type="button"]:hover {
+    background-color: #7f8c8d;
+}

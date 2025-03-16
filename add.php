@@ -57,8 +57,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 <body>
     <nav>
-        <a href="#">Administration</a>
-        <a href="login.php">Login</a>
         <a href="affichage.php">List</a>
         <a href="add.php">Add</a>
     </nav>
